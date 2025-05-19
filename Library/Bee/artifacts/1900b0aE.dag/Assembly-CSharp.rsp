@@ -447,8 +447,14 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/3rdPartyAssets/BTM_Assets/BTM_Items_Gems/Scripts/SimpleGemsAnim.cs"
+"Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Scripts/AccessoryLogic.cs"
+"Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Scripts/AccessoryWearLogic.cs"
+"Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Scripts/DemoFree.cs"
+"Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Scripts/FreeCameraLogic.cs"
+"Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Scripts/SimpleSampleCharacterControl.cs"
 "Assets/3rdPartyAssets/IgniteCoders/Simple Water Shader/Resources/WaterReflection.cs"
 "Assets/3rdPartyAssets/Simple Water Shader HDRP/Scripts/DemoButtons.cs"
+"Assets/MyAssets/Scripts/PlayerController.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic

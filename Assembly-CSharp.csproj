@@ -62,8 +62,20 @@
   <ItemGroup>
     <Compile Include="Assets\3rdPartyAssets\BTM_Assets\BTM_Items_Gems\Scripts\SimpleGemsAnim.cs" />
     <Compile Include="Assets\3rdPartyAssets\IgniteCoders\Simple Water Shader\Resources\WaterReflection.cs" />
+    <Compile Include="Assets\3rdPartyAssets\Characters\Supercyan Character Pack Free Sample\Scripts\FreeCameraLogic.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\3rdPartyAssets\Characters\Supercyan Character Pack Free Sample\Scripts\AccessoryLogic.cs" />
+    <Compile Include="Assets\3rdPartyAssets\Characters\Supercyan Character Pack Free Sample\Scripts\DemoFree.cs" />
+    <Compile Include="Assets\3rdPartyAssets\Characters\Supercyan Character Pack Free Sample\Scripts\SimpleSampleCharacterControl.cs" />
     <Compile Include="Assets\3rdPartyAssets\Simple Water Shader HDRP\Scripts\DemoButtons.cs" />
+    <Compile Include="Assets\MyAssets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\3rdPartyAssets\Characters\Supercyan Character Pack Free Sample\Scripts\AccessoryWearLogic.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\3rdPartyAssets\Characters\Supercyan Character Pack Free Sample\Shaders\Legacy\CelShader.shader" />
+    <None Include="Assets\3rdPartyAssets\Characters\Supercyan Character Pack Free Sample\Shaders\SupercyanShader.shader" />
+    <None Include="Assets\3rdPartyAssets\Characters\Stylized NPC - Peasant Nolant\README.txt" />
+    <None Include="Assets\3rdPartyAssets\Characters\Supercyan Character Pack Free Sample\Shaders\SupercyanShaderLighting.cginc" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
