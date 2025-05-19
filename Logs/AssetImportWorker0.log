@@ -1,0 +1,276 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.3f1 (f34db9734971) revision 15945145'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 15679 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2025-05-19T18:12:34Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.1.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/desti/Downloads/2025-GD4-ICA-Emmanuella-Ibitola
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53379
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/desti/Downloads/2025-GD4-ICA-Emmanuella-Ibitola
+C:/Users/desti/Downloads/2025-GD4-ICA-Emmanuella-Ibitola
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11244]  Target information:
+
+Player connection [11244]  * "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 3989770915 [EditorId] 3989770915 [Version] 1048832 [Id] WindowsEditor(7,Zangetsu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [11244] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11244] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 12.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.3f1 (f34db9734971)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/desti/Downloads/2025-GD4-ICA-Emmanuella-Ibitola/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        AMD Radeon (TM) Graphics (ID=0x15e7)
+    Vendor:          ATI
+    VRAM:            7839 MB
+    App VRAM Budget: 7662 MB
+    Driver:          31.0.12044.8005
+    Unified Memory Architecture
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004477 seconds.
+- Loaded All Assemblies, in  0.918 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.675 seconds
+Domain Reload Profiling: 1589ms
+	BeginReloadAssembly (431ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (287ms)
+		LoadAssemblies (422ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (280ms)
+			TypeCache.Refresh (277ms)
+				TypeCache.ScanAssembly (251ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (676ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (586ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (100ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.464 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.022 seconds
+Domain Reload Profiling: 5475ms
+	BeginReloadAssembly (516ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (1788ms)
+		LoadAssemblies (1160ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1003ms)
+			TypeCache.Refresh (752ms)
+				TypeCache.ScanAssembly (705ms)
+			BuildScriptInfoCaches (216ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (3022ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2693ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (267ms)
+			ProcessInitializeOnLoadAttributes (1734ms)
+			ProcessInitializeOnLoadMethodAttributes (671ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 459 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7270 unused Assets / (5.7 MB). Loaded Objects now: 8258.
+Memory consumption went from 250.8 MB to 245.1 MB.
+Total: 43.060700 ms (FindLiveObjects: 1.201700 ms CreateObjectMapping: 1.458800 ms MarkObjects: 34.383600 ms  DeleteObjects: 6.014200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 239520.909319 seconds.
+  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Blue)01.prefab
+  artifactKey: Guid(5179fd597ba994f25944443e397b7357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Blue)01.prefab using Guid(5179fd597ba994f25944443e397b7357) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2da30126de586524c7a1b6a97789536c') in 4.8410173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Plam Tree01.prefab
+  artifactKey: Guid(e2346c1679fff42b89171240bc31918b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Plam Tree01.prefab using Guid(e2346c1679fff42b89171240bc31918b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1552463549d6ed6df0eff405783e47f5') in 0.3318241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Treasure chest(With Gold).prefab
+  artifactKey: Guid(8df63b871c3064092907ab219a6a9e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Treasure chest(With Gold).prefab using Guid(8df63b871c3064092907ab219a6a9e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07601fed1ea0c95d6cd39c603580552b') in 0.0811377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Break Ship.prefab
+  artifactKey: Guid(0f95aba98c07f443c833c5483fbc4c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Break Ship.prefab using Guid(0f95aba98c07f443c833c5483fbc4c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ce027eaa6fbff4dd43fcb380f439554') in 0.1562884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Treasure chest Open.prefab
+  artifactKey: Guid(d5a61c4d106d74c92abc7fc5d8da5f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Treasure chest Open.prefab using Guid(d5a61c4d106d74c92abc7fc5d8da5f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7c5d7a3b37e813f447588aae10f4688') in 0.1582547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Ground.prefab
+  artifactKey: Guid(7f98616bd6bf84f06979fbf357048d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Ground.prefab using Guid(7f98616bd6bf84f06979fbf357048d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '407b1607add584e64640252ce7cbb185') in 0.3008808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Plam Tree02.prefab
+  artifactKey: Guid(fe7981022766d4ace8bc760fcf299bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Plam Tree02.prefab using Guid(fe7981022766d4ace8bc760fcf299bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1502414dea02c6fc29c1a0ab10f080b') in 0.065321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Barrals.prefab
+  artifactKey: Guid(cea215a552e8b4098b10e7502f1e1701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Barrals.prefab using Guid(cea215a552e8b4098b10e7502f1e1701) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08d9e724a9defbce7e9c83e626fc9869') in 0.0809401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Cannon.prefab
+  artifactKey: Guid(5021d026bca774b16baea56a7ded4def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Cannon.prefab using Guid(5021d026bca774b16baea56a7ded4def) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ee0000285023b3e0cdec980505a870d') in 0.0788309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Blue)02.prefab
+  artifactKey: Guid(726603c62eef34fd6a439f5ea6a1f410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Blue)02.prefab using Guid(726603c62eef34fd6a439f5ea6a1f410) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5d717c5aaab1fb5c9cef83cc9746a2d') in 0.0667107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
