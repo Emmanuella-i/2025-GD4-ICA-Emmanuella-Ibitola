@@ -9,6 +9,8 @@ Library\Bee\artifacts\mvdfrm\Unity.Cinemachine.ref.dll_77EC0F35C376A022.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Collections.Editor.ref.dll_E4491E98C71DB4B4.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Collections.ref.dll_656D7410E7809ECD.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.EditorCoroutines.Editor.ref.dll_34ED10A34098B2DB.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.FilmInternalUtilities.Editor.ref.dll_FB17A9FA14BD5550.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.FilmInternalUtilities.ref.dll_D552C3DBFC98A471.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Mathematics.Editor.ref.dll_9A20CFD48BC11F43.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Mathematics.ref.dll_E8EFDB1B8D5C174E.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Multiplayer.Center.Common.ref.dll_EE36537354EA42C8.mvfrm
@@ -40,6 +42,8 @@ Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.Editor.ref.dll_159E061D77A10B86.m
 Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.ref.dll_84A4293DBDD182DB.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Timeline.Editor.ref.dll_0D3D3C0B73557612.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Timeline.ref.dll_621CDDF9C514DF8F.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Toonshader.Editor.ref.dll_45E22FE89B51B304.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Toonshader.ref.dll_17670A707D0CFB7D.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VSCode.Editor.ref.dll_3628369EB48E4C19.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualEffectGraph.Editor.ref.dll_40E84D5AB45D5BAC.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualEffectGraph.Runtime.ref.dll_0736BB02CDA4FDBF.mvfrm

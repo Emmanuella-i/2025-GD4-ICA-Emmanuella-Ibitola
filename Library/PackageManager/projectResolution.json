@@ -118,6 +118,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.toonshader@0.10.2-preview": {
+      "name": "com.unity.toonshader",
+      "displayName": "Unity Toon Shader",
+      "resolvedPath": "C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\Library\\PackageCache\\com.unity.toonshader@7cafc07da4c2",
+      "fingerprint": "7cafc07da4c2be13a1c39a03828c2d6ea5d6e741",
+      "editorCompatibility": "2020.3.0a1",
+      "version": "0.10.2-preview",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
@@ -410,16 +420,6 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.ext.nunit@2.0.5": {
-      "name": "com.unity.ext.nunit",
-      "displayName": "Custom NUnit",
-      "resolvedPath": "C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff",
-      "fingerprint": "031a54704bffe39e6a0324909f8eaa4565bdebf2",
-      "editorCompatibility": "2019.4.0a1",
-      "version": "2.0.5",
-      "source": "builtin",
-      "testable": false
-    },
     "com.unity.render-pipelines.core@17.1.0": {
       "name": "com.unity.render-pipelines.core",
       "displayName": "Scriptable Render Pipeline Core",
@@ -427,6 +427,26 @@
       "fingerprint": "79d3abb9adf1668400072f165c52ac7c03b1bca9",
       "editorCompatibility": "6000.1.0a1",
       "version": "17.1.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.film-internal-utilities@0.18.4-preview": {
+      "name": "com.unity.film-internal-utilities",
+      "displayName": "Film Internal Utilities",
+      "resolvedPath": "C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\Library\\PackageCache\\com.unity.film-internal-utilities@5f3dfda50b42",
+      "fingerprint": "5f3dfda50b42ab64faf23d539371ede13b122918",
+      "editorCompatibility": "2020.3.0a1",
+      "version": "0.18.4-preview",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.ext.nunit@2.0.5": {
+      "name": "com.unity.ext.nunit",
+      "displayName": "Custom NUnit",
+      "resolvedPath": "C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff",
+      "fingerprint": "031a54704bffe39e6a0324909f8eaa4565bdebf2",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.5",
       "source": "builtin",
       "testable": false
     },
@@ -500,16 +520,6 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.searcher@4.9.3": {
-      "name": "com.unity.searcher",
-      "displayName": "Searcher",
-      "resolvedPath": "C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\Library\\PackageCache\\com.unity.searcher@1e17ce91558d",
-      "fingerprint": "1e17ce91558d1d9127554adc03d275f39a7466a2",
-      "editorCompatibility": "2019.1.0a1",
-      "version": "4.9.3",
-      "source": "registry",
-      "testable": false
-    },
     "com.unity.burst@1.8.21": {
       "name": "com.unity.burst",
       "displayName": "Burst",
@@ -548,6 +558,16 @@
       "editorCompatibility": "2023.3.0b1",
       "version": "1.0.1",
       "source": "builtin",
+      "testable": false
+    },
+    "com.unity.searcher@4.9.3": {
+      "name": "com.unity.searcher",
+      "displayName": "Searcher",
+      "resolvedPath": "C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\Library\\PackageCache\\com.unity.searcher@1e17ce91558d",
+      "fingerprint": "1e17ce91558d1d9127554adc03d275f39a7466a2",
+      "editorCompatibility": "2019.1.0a1",
+      "version": "4.9.3",
+      "source": "registry",
       "testable": false
     },
     "com.unity.settings-manager@2.1.0": {
