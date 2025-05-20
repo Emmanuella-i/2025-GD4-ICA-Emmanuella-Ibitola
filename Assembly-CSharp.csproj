@@ -65,10 +65,10 @@
     <Compile Include="Assets\MyAssets\Scripts\TaskTracker.cs" />
     <Compile Include="Assets\3rdPartyAssets\HeneGames\Dialogue System\Scripts\SimpleNavAgentAnimation.cs" />
     <Compile Include="Assets\3rdPartyAssets\BTM_Assets\BTM_Items_Gems\Scripts\SimpleGemsAnim.cs" />
-    <Compile Include="Assets\MyAssets\Scripts\MouseScreenRayProvider.cs" />
     <Compile Include="Assets\3rdPartyAssets\HeneGames\Dialogue System\Scripts\DialogueCharacter.cs" />
     <Compile Include="Assets\3rdPartyAssets\HeneGames\Dialogue System\Scripts\ClickMovement.cs" />
     <Compile Include="Assets\3rdPartyAssets\IgniteCoders\Simple Water Shader\Resources\WaterReflection.cs" />
+    <Compile Include="Assets\MyAssets\Scripts\ShovelPickup.cs" />
     <Compile Include="Assets\3rdPartyAssets\Characters\Supercyan Character Pack Free Sample\Scripts\FreeCameraLogic.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\3rdPartyAssets\Characters\Supercyan Character Pack Free Sample\Scripts\AccessoryLogic.cs" />
@@ -79,7 +79,6 @@
     <Compile Include="Assets\MyAssets\Scripts\Interactor.cs" />
     <Compile Include="Assets\3rdPartyAssets\HeneGames\Dialogue System\Scripts\DialogueTrigger.cs" />
     <Compile Include="Assets\3rdPartyAssets\Characters\Supercyan Character Pack Free Sample\Scripts\AccessoryWearLogic.cs" />
-    <Compile Include="Assets\MyAssets\Scripts\IRayProvider.cs" />
     <Compile Include="Assets\3rdPartyAssets\HeneGames\Dialogue System\Scripts\DialogueManager.cs" />
     <Compile Include="Assets\3rdPartyAssets\HeneGames\Dialogue System\Scripts\Movement2D.cs" />
   </ItemGroup>
@@ -1173,20 +1172,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    <Reference Include="Unity.Toonshader.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Toonshader.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Multiplayer.Center.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Toonshader.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Toonshader.Editor.dll</HintPath>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Splines">

@@ -473,8 +473,7 @@
 "Assets/3rdPartyAssets/IgniteCoders/Simple Water Shader/Resources/WaterReflection.cs"
 "Assets/3rdPartyAssets/Simple Water Shader HDRP/Scripts/DemoButtons.cs"
 "Assets/MyAssets/Scripts/Interactor.cs"
-"Assets/MyAssets/Scripts/IRayProvider.cs"
-"Assets/MyAssets/Scripts/MouseScreenRayProvider.cs"
+"Assets/MyAssets/Scripts/ShovelPickup.cs"
 "Assets/MyAssets/Scripts/TaskTracker.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
