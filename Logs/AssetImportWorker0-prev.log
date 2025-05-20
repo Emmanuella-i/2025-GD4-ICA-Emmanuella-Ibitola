@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.1/staging' branch; Version is '6000.1.3f1 (f34db9734971) revision 15945145'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 15679 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-Date: 2025-05-19T18:12:34Z
+Date: 2025-05-19T22:10:25Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.1.3f1\Editor\Unity.exe
@@ -16,7 +16,7 @@ C:/Users/desti/Downloads/2025-GD4-ICA-Emmanuella-Ibitola
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53379
+56020
 -job-worker-count
 7
 -background-job-worker-count
@@ -62,12 +62,12 @@ C:/Users/desti/Downloads/2025-GD4-ICA-Emmanuella-Ibitola
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11244]  Target information:
+Player connection [2788]  Target information:
 
-Player connection [11244]  * "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 3989770915 [EditorId] 3989770915 [Version] 1048832 [Id] WindowsEditor(7,Zangetsu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [2788]  * "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 4078889606 [EditorId] 4078889606 [Version] 1048832 [Id] WindowsEditor(7,Zangetsu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11244] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [11244] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2788] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2788] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 12.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.1.3f1 (f34db9734971)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Resources/UnitySubsystems
@@ -97,43 +97,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004477 seconds.
-- Loaded All Assemblies, in  0.918 seconds
+Registered in 0.004145 seconds.
+- Loaded All Assemblies, in  0.713 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.675 seconds
-Domain Reload Profiling: 1589ms
-	BeginReloadAssembly (431ms)
+- Finished resetting the current domain, in  0.662 seconds
+Domain Reload Profiling: 1371ms
+	BeginReloadAssembly (243ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (78ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (98ms)
-	LoadAllAssembliesAndSetupDomain (287ms)
-		LoadAssemblies (422ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (285ms)
+		LoadAssemblies (236ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (280ms)
-			TypeCache.Refresh (277ms)
-				TypeCache.ScanAssembly (251ms)
+			TypeCache.Refresh (278ms)
+				TypeCache.ScanAssembly (257ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (676ms)
+	FinalizeReload (662ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (586ms)
+		SetupLoadedEditorAssemblies (576ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (100ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (242ms)
-			ProcessInitializeOnLoadMethodAttributes (100ms)
+			InitializePlatformSupportModulesInManaged (97ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -142,133 +142,283 @@ Domain Reload Profiling: 1589ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.464 seconds
+- Loaded All Assemblies, in  1.754 seconds
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 4.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.022 seconds
-Domain Reload Profiling: 5475ms
-	BeginReloadAssembly (516ms)
+- Finished resetting the current domain, in  3.457 seconds
+Domain Reload Profiling: 5203ms
+	BeginReloadAssembly (327ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (19ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (18ms)
 	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (1788ms)
-		LoadAssemblies (1160ms)
+	LoadAllAssembliesAndSetupDomain (1257ms)
+		LoadAssemblies (815ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1003ms)
-			TypeCache.Refresh (752ms)
-				TypeCache.ScanAssembly (705ms)
-			BuildScriptInfoCaches (216ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (3022ms)
+		AnalyzeDomain (638ms)
+			TypeCache.Refresh (499ms)
+				TypeCache.ScanAssembly (471ms)
+			BuildScriptInfoCaches (114ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (3457ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2693ms)
+		SetupLoadedEditorAssemblies (3155ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (267ms)
-			ProcessInitializeOnLoadAttributes (1734ms)
-			ProcessInitializeOnLoadMethodAttributes (671ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (334ms)
+			ProcessInitializeOnLoadAttributes (1827ms)
+			ProcessInitializeOnLoadMethodAttributes (977ms)
 			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 459 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7270 unused Assets / (5.7 MB). Loaded Objects now: 8258.
-Memory consumption went from 250.8 MB to 245.1 MB.
-Total: 43.060700 ms (FindLiveObjects: 1.201700 ms CreateObjectMapping: 1.458800 ms MarkObjects: 34.383600 ms  DeleteObjects: 6.014200 ms)
+Unloading 461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7275 unused Assets / (6.0 MB). Loaded Objects now: 8266.
+Memory consumption went from 248.5 MB to 242.5 MB.
+Total: 36.809500 ms (FindLiveObjects: 1.132100 ms CreateObjectMapping: 0.895800 ms MarkObjects: 29.903400 ms  DeleteObjects: 4.873900 ms)
+
+========================================================================
+Received Prepare
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7266 unused Assets / (5.2 MB). Loaded Objects now: 8266.
+Memory consumption went from 197.0 MB to 191.9 MB.
+Total: 60.055700 ms (FindLiveObjects: 1.689300 ms CreateObjectMapping: 1.721300 ms MarkObjects: 50.759900 ms  DeleteObjects: 5.881800 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.223 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.135 seconds
+Domain Reload Profiling: 3358ms
+	BeginReloadAssembly (314ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (100ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (807ms)
+		LoadAssemblies (550ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (385ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (352ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2136ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1745ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (1406ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7273 unused Assets / (6.4 MB). Loaded Objects now: 8293.
+Memory consumption went from 215.9 MB to 209.4 MB.
+Total: 50.998100 ms (FindLiveObjects: 1.871200 ms CreateObjectMapping: 2.116900 ms MarkObjects: 40.110400 ms  DeleteObjects: 6.897100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 253802.004841 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Prefabs
+  artifactKey: Guid(95a779c7172f3a44c95f30305823626f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Prefabs using Guid(95a779c7172f3a44c95f30305823626f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad08da843826545704365a1f76ffdc71') in 0.011133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 239520.909319 seconds.
-  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Blue)01.prefab
-  artifactKey: Guid(5179fd597ba994f25944443e397b7357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Blue)01.prefab using Guid(5179fd597ba994f25944443e397b7357) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2da30126de586524c7a1b6a97789536c') in 4.8410173 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 2.950705 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Prefabs/Simple Movement
+  artifactKey: Guid(a6b443b6b679b384a88c720a5f4fa1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Prefabs/Simple Movement using Guid(a6b443b6b679b384a88c720a5f4fa1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a794688af757c7a82791f11bbba9c235') in 0.0010136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Plam Tree01.prefab
-  artifactKey: Guid(e2346c1679fff42b89171240bc31918b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Plam Tree01.prefab using Guid(e2346c1679fff42b89171240bc31918b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1552463549d6ed6df0eff405783e47f5') in 0.3318241 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 1.468125 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Prefabs/Simple Movement/Mobile
+  artifactKey: Guid(c6ea56db5b70dc640a5034a96d4aabf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Prefabs/Simple Movement/Mobile using Guid(c6ea56db5b70dc640a5034a96d4aabf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04b6cb2239b8e783ec95107c8088c09c') in 0.0008697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Treasure chest(With Gold).prefab
-  artifactKey: Guid(8df63b871c3064092907ab219a6a9e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Treasure chest(With Gold).prefab using Guid(8df63b871c3064092907ab219a6a9e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07601fed1ea0c95d6cd39c603580552b') in 0.0811377 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+  Time since last request: 0.000024 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Prefabs/Simple Movement/Mobile/Mobile_FreeSample_male_1_SimpleMovement.prefab
+  artifactKey: Guid(c0bfad1b94282b345a379816d5812658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Prefabs/Simple Movement/Mobile/Mobile_FreeSample_male_1_SimpleMovement.prefab using Guid(c0bfad1b94282b345a379816d5812658) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb78331c11ca87c26e2c030753d435be') in 4.1701584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 324
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Break Ship.prefab
-  artifactKey: Guid(0f95aba98c07f443c833c5483fbc4c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Break Ship.prefab using Guid(0f95aba98c07f443c833c5483fbc4c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ce027eaa6fbff4dd43fcb380f439554') in 0.1562884 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+  Time since last request: 211.517723 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Prefabs/Simple Movement/High Quality
+  artifactKey: Guid(8f3b4fbaf9718474b998eed54ce9f88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Prefabs/Simple Movement/High Quality using Guid(8f3b4fbaf9718474b998eed54ce9f88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce70d5c3a3e167bebc4e19e0d287e373') in 0.001793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Treasure chest Open.prefab
-  artifactKey: Guid(d5a61c4d106d74c92abc7fc5d8da5f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Treasure chest Open.prefab using Guid(d5a61c4d106d74c92abc7fc5d8da5f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7c5d7a3b37e813f447588aae10f4688') in 0.1582547 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+  Time since last request: 0.299219 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Prefabs/Simple Movement/High Quality/FreeSample_male_1_SimpleMovement.prefab
+  artifactKey: Guid(9854bb05e98038145add8ed7c25af4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Prefabs/Simple Movement/High Quality/FreeSample_male_1_SimpleMovement.prefab using Guid(9854bb05e98038145add8ed7c25af4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27cad58bb5a8dc904b732b152fd392bd') in 0.1268333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 249
+
+========================================================================
+Received Prepare
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7266 unused Assets / (5.5 MB). Loaded Objects now: 8681.
+Memory consumption went from 296.0 MB to 290.5 MB.
+Total: 176.761200 ms (FindLiveObjects: 3.001900 ms CreateObjectMapping: 1.194700 ms MarkObjects: 165.804000 ms  DeleteObjects: 6.757700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7266 unused Assets / (5.6 MB). Loaded Objects now: 8681.
+Memory consumption went from 299.3 MB to 293.6 MB.
+Total: 61.569400 ms (FindLiveObjects: 1.622800 ms CreateObjectMapping: 1.198600 ms MarkObjects: 54.041000 ms  DeleteObjects: 4.705000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Leak Detected : Persistent allocates 8 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
+- Loaded All Assemblies, in  2.170 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.368 seconds
+Domain Reload Profiling: 4537ms
+	BeginReloadAssembly (637ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (99ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (218ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1362ms)
+		LoadAssemblies (1024ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (512ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (465ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2376ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1902ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (1518ms)
+			ProcessInitializeOnLoadMethodAttributes (179ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7273 unused Assets / (5.7 MB). Loaded Objects now: 8375.
+Memory consumption went from 237.3 MB to 231.6 MB.
+Total: 43.676700 ms (FindLiveObjects: 2.062600 ms CreateObjectMapping: 1.215900 ms MarkObjects: 31.801400 ms  DeleteObjects: 8.594800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 197.406020 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Textures
+  artifactKey: Guid(b8205829b3519944cbd7d0061a526527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Textures using Guid(b8205829b3519944cbd7d0061a526527) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '585ecb065628ac9366485d800bac4495') in 0.0179109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Ground.prefab
-  artifactKey: Guid(7f98616bd6bf84f06979fbf357048d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Ground.prefab using Guid(7f98616bd6bf84f06979fbf357048d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '407b1607add584e64640252ce7cbb185') in 0.3008808 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000037 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Textures/animal_people_backbag_1_texture.psd
+  artifactKey: Guid(4d8c9d67e01203f42a4b70ada43bfa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Textures/animal_people_backbag_1_texture.psd using Guid(4d8c9d67e01203f42a4b70ada43bfa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '768144f9847e93dfd9332b6b06881a00') in 0.1384036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Plam Tree02.prefab
-  artifactKey: Guid(fe7981022766d4ace8bc760fcf299bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Plam Tree02.prefab using Guid(fe7981022766d4ace8bc760fcf299bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1502414dea02c6fc29c1a0ab10f080b') in 0.065321 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000065 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Textures/CommonPeople_FreeSample_anniversy_texture_blue.png
+  artifactKey: Guid(1ff8944fa4341244abc66a391c13d722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Textures/CommonPeople_FreeSample_anniversy_texture_blue.png using Guid(1ff8944fa4341244abc66a391c13d722) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab4681b1bbdc0e64c3993a129c9cd927') in 0.030012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Barrals.prefab
-  artifactKey: Guid(cea215a552e8b4098b10e7502f1e1701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Barrals.prefab using Guid(cea215a552e8b4098b10e7502f1e1701) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08d9e724a9defbce7e9c83e626fc9869') in 0.0809401 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000030 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Textures/CommonPeople_FreeSample_anniversy_texture.psd
+  artifactKey: Guid(20d2bf1ea018afd44b91e5303cf98abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Textures/CommonPeople_FreeSample_anniversy_texture.psd using Guid(20d2bf1ea018afd44b91e5303cf98abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2efcefeda1721020e8beeedc92a2d97') in 0.0526117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Cannon.prefab
-  artifactKey: Guid(5021d026bca774b16baea56a7ded4def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Cannon.prefab using Guid(5021d026bca774b16baea56a7ded4def) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ee0000285023b3e0cdec980505a870d') in 0.0788309 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Blue)02.prefab
-  artifactKey: Guid(726603c62eef34fd6a439f5ea6a1f410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Blue)02.prefab using Guid(726603c62eef34fd6a439f5ea6a1f410) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5d717c5aaab1fb5c9cef83cc9746a2d') in 0.0667107 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000053 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Textures/CommonPeople_FreeSample_anniversy_texture_white.png
+  artifactKey: Guid(e44552b81f255844aaf5951696e4f931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Textures/CommonPeople_FreeSample_anniversy_texture_white.png using Guid(e44552b81f255844aaf5951696e4f931) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08ba36c49de41fa804ddf0ee336c92a5') in 0.0520298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

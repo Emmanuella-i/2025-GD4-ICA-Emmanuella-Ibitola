@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\Assets\\3rdPartyAssets\\Characters\\Supercyan Character Pack Free Sample\\Scripts\\SimpleSampleCharacterControl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\3rdPartyAssets\\Characters\\Supercyan Character Pack Free Sample\\Scripts\\SimpleSampleCharacterControl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\Assets\\3rdPartyAssets\\Characters\\Supercyan Character Pack Free Sample\\Shaders\\SupercyanShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\3rdPartyAssets\\Characters\\Supercyan Character Pack Free Sample\\Shaders\\SupercyanShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\Assets\\3rdPartyAssets\\Characters\\Supercyan Character Pack Free Sample\\Scripts\\DemoFree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\3rdPartyAssets\\Characters\\Supercyan Character Pack Free Sample\\Scripts\\DemoFree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\Assets\\IgniteCoders\\Simple Water Shader\\Resources\\WaterReflection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\IgniteCoders\\Simple Water Shader\\Resources\\WaterReflection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -35,15 +47,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SimpleSampleCharacterControl.cs",
+              "DocumentMoniker": "C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\Assets\\3rdPartyAssets\\Characters\\Supercyan Character Pack Free Sample\\Scripts\\SimpleSampleCharacterControl.cs",
+              "RelativeDocumentMoniker": "Assets\\3rdPartyAssets\\Characters\\Supercyan Character Pack Free Sample\\Scripts\\SimpleSampleCharacterControl.cs",
+              "ToolTip": "C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\Assets\\3rdPartyAssets\\Characters\\Supercyan Character Pack Free Sample\\Scripts\\SimpleSampleCharacterControl.cs",
+              "RelativeToolTip": "Assets\\3rdPartyAssets\\Characters\\Supercyan Character Pack Free Sample\\Scripts\\SimpleSampleCharacterControl.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:45:01.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SupercyanShader.shader",
+              "DocumentMoniker": "C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\Assets\\3rdPartyAssets\\Characters\\Supercyan Character Pack Free Sample\\Shaders\\SupercyanShader.shader",
+              "RelativeDocumentMoniker": "Assets\\3rdPartyAssets\\Characters\\Supercyan Character Pack Free Sample\\Shaders\\SupercyanShader.shader",
+              "ToolTip": "C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\Assets\\3rdPartyAssets\\Characters\\Supercyan Character Pack Free Sample\\Shaders\\SupercyanShader.shader",
+              "RelativeToolTip": "Assets\\3rdPartyAssets\\Characters\\Supercyan Character Pack Free Sample\\Shaders\\SupercyanShader.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-19T22:19:45.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DemoFree.cs",
+              "DocumentMoniker": "C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\Assets\\3rdPartyAssets\\Characters\\Supercyan Character Pack Free Sample\\Scripts\\DemoFree.cs",
+              "RelativeDocumentMoniker": "Assets\\3rdPartyAssets\\Characters\\Supercyan Character Pack Free Sample\\Scripts\\DemoFree.cs",
+              "ToolTip": "C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\Assets\\3rdPartyAssets\\Characters\\Supercyan Character Pack Free Sample\\Scripts\\DemoFree.cs",
+              "RelativeToolTip": "Assets\\3rdPartyAssets\\Characters\\Supercyan Character Pack Free Sample\\Scripts\\DemoFree.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T22:16:08.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "WaterReflection.cs",
               "DocumentMoniker": "C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\Assets\\IgniteCoders\\Simple Water Shader\\Resources\\WaterReflection.cs",
               "RelativeDocumentMoniker": "Assets\\IgniteCoders\\Simple Water Shader\\Resources\\WaterReflection.cs",
               "ToolTip": "C:\\Users\\desti\\Downloads\\2025-GD4-ICA-Emmanuella-Ibitola\\Assets\\IgniteCoders\\Simple Water Shader\\Resources\\WaterReflection.cs",
               "RelativeToolTip": "Assets\\IgniteCoders\\Simple Water Shader\\Resources\\WaterReflection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T01:18:40.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T01:18:40.741Z"
             }
           ]
         }

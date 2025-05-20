@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.1/staging' branch; Version is '6000.1.3f1 (f34db9734971) revision 15945145'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 15679 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-Date: 2025-05-19T18:12:38Z
+Date: 2025-05-19T22:17:46Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.1.3f1\Editor\Unity.exe
@@ -16,7 +16,7 @@ C:/Users/desti/Downloads/2025-GD4-ICA-Emmanuella-Ibitola
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-53379
+56020
 -job-worker-count
 7
 -background-job-worker-count
@@ -62,12 +62,12 @@ C:/Users/desti/Downloads/2025-GD4-ICA-Emmanuella-Ibitola
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13548]  Target information:
+Player connection [15928]  Target information:
 
-Player connection [13548]  * "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 961608679 [EditorId] 961608679 [Version] 1048832 [Id] WindowsEditor(7,Zangetsu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15928]  * "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 107839895 [EditorId] 107839895 [Version] 1048832 [Id] WindowsEditor(7,Zangetsu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13548] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [13548] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15928] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15928] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 16.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.1.3f1 (f34db9734971)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Resources/UnitySubsystems
@@ -97,43 +97,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003984 seconds.
-- Loaded All Assemblies, in  0.923 seconds
+Registered in 0.018250 seconds.
+- Loaded All Assemblies, in  0.783 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.741 seconds
-Domain Reload Profiling: 1659ms
-	BeginReloadAssembly (328ms)
+- Finished resetting the current domain, in  0.621 seconds
+Domain Reload Profiling: 1400ms
+	BeginReloadAssembly (290ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (93ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (100ms)
-	LoadAllAssembliesAndSetupDomain (374ms)
-		LoadAssemblies (321ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (108ms)
+	LoadAllAssembliesAndSetupDomain (287ms)
+		LoadAssemblies (285ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (369ms)
-			TypeCache.Refresh (365ms)
-				TypeCache.ScanAssembly (335ms)
+		AnalyzeDomain (283ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (260ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (741ms)
+	FinalizeReload (621ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (632ms)
+		SetupLoadedEditorAssemblies (545ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (108ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (128ms)
-			ProcessInitializeOnLoadAttributes (270ms)
-			ProcessInitializeOnLoadMethodAttributes (117ms)
+			InitializePlatformSupportModulesInManaged (88ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -142,117 +142,289 @@ Domain Reload Profiling: 1659ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.665 seconds
+- Loaded All Assemblies, in  1.922 seconds
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.307 seconds
-Domain Reload Profiling: 4963ms
-	BeginReloadAssembly (259ms)
+- Finished resetting the current domain, in  2.321 seconds
+Domain Reload Profiling: 4232ms
+	BeginReloadAssembly (300ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (15ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (17ms)
 	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (1250ms)
-		LoadAssemblies (769ms)
+	LoadAllAssembliesAndSetupDomain (1459ms)
+		LoadAssemblies (953ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (616ms)
-			TypeCache.Refresh (479ms)
-				TypeCache.ScanAssembly (451ms)
-			BuildScriptInfoCaches (104ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (3308ms)
+		AnalyzeDomain (691ms)
+			TypeCache.Refresh (540ms)
+				TypeCache.ScanAssembly (511ms)
+			BuildScriptInfoCaches (120ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2321ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3018ms)
+		SetupLoadedEditorAssemblies (2062ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (241ms)
-			ProcessInitializeOnLoadAttributes (1952ms)
-			ProcessInitializeOnLoadMethodAttributes (802ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (230ms)
+			ProcessInitializeOnLoadAttributes (1343ms)
+			ProcessInitializeOnLoadMethodAttributes (474ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 459 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7270 unused Assets / (5.9 MB). Loaded Objects now: 8258.
-Memory consumption went from 247.0 MB to 241.0 MB.
-Total: 50.989000 ms (FindLiveObjects: 2.139900 ms CreateObjectMapping: 1.423200 ms MarkObjects: 40.058200 ms  DeleteObjects: 7.362600 ms)
+Unloading 461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7275 unused Assets / (5.5 MB). Loaded Objects now: 8267.
+Memory consumption went from 252.5 MB to 247.0 MB.
+Total: 37.161900 ms (FindLiveObjects: 1.522400 ms CreateObjectMapping: 0.935700 ms MarkObjects: 30.385000 ms  DeleteObjects: 4.317000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 239525.874556 seconds.
-  path: Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Red)02.prefab
-  artifactKey: Guid(158c1bc3e5d6c46e19846a0ce95dbd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rdPartyAssets/PolyAngel-Mini Pirates Island/Prefabs/Ship(Red)02.prefab using Guid(158c1bc3e5d6c46e19846a0ce95dbd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aa2090ace6d863bbdf27cf797263551') in 5.0919055 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.242569 seconds.
-  path: Assets/3rdPartyAssets/RPGPP_LT
-  artifactKey: Guid(1aa4f41ee4785fe4d83caf6240cf87e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rdPartyAssets/RPGPP_LT using Guid(1aa4f41ee4785fe4d83caf6240cf87e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8ae8206acbb04ce733d6ee4bd239406') in 0.0013286 seconds
+  Time since last request: 254381.172831 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Materials
+  artifactKey: Guid(136dc7246704b7743995a489bb65232a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Materials using Guid(136dc7246704b7743995a489bb65232a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a54b17fc3cc1378cfd1749faff5dc1a') in 0.054948 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.871390 seconds.
-  path: Assets/3rdPartyAssets/RPGPP_LT/Prefabs
-  artifactKey: Guid(5418b837466e9e540a4c9142c8646667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rdPartyAssets/RPGPP_LT/Prefabs using Guid(5418b837466e9e540a4c9142c8646667) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '969f0f287a71e1b4d7156da7dd1fbe47') in 0.0012227 seconds
+  Time since last request: 2.270774 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Materials/High Quality
+  artifactKey: Guid(68f046f0aeff2d449a91531a5c1a8d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Materials/High Quality using Guid(68f046f0aeff2d449a91531a5c1a8d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ada8a5914cddb21593bb74228f16016') in 0.0013482 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.586785 seconds.
-  path: Assets/3rdPartyAssets/RPGPP_LT/Prefabs/Structures
-  artifactKey: Guid(89fac321af2bad14eb25a5915717f85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rdPartyAssets/RPGPP_LT/Prefabs/Structures using Guid(89fac321af2bad14eb25a5915717f85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d6fed75ddba1857fade3daaf7ef4bda') in 0.0008572 seconds
+  Time since last request: 0.000034 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Materials/High Quality/free_anniversy_blue.mat
+  artifactKey: Guid(b8c72eccb757a0b45af09e039430b378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Materials/High Quality/free_anniversy_blue.mat using Guid(b8c72eccb757a0b45af09e039430b378) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92fcd9eb15bcfe04cc40d96a5b1b97ca') in 3.8799233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Materials/High Quality/free_male_1_body.mat
+  artifactKey: Guid(d88ee601ae3bb4d4a9385f5002f507cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Materials/High Quality/free_male_1_body.mat using Guid(d88ee601ae3bb4d4a9385f5002f507cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a662d3c425ae9a49c4c25f97d9498e47') in 0.0747664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Materials/High Quality/free_anniversy_white.mat
+  artifactKey: Guid(7d1275c69d508b24d8524f12ee4d9ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Materials/High Quality/free_anniversy_white.mat using Guid(7d1275c69d508b24d8524f12ee4d9ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f49ec43ffb9a47b38ea1b63c3a676387') in 0.1433624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 190.188088 seconds.
+  path: Assets/3rdPartyAssets/Characters
+  artifactKey: Guid(af06ff4b4b342704b81f0f74e662a66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters using Guid(af06ff4b4b342704b81f0f74e662a66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a94cb70f715fee060637b18a485d43e') in 0.0018409 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.013281 seconds.
-  path: Assets/3rdPartyAssets/RPGPP_LT/Prefabs/Structures/Buildings
-  artifactKey: Guid(40dd8cc9b6443a34fb7dd3c39d08074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rdPartyAssets/RPGPP_LT/Prefabs/Structures/Buildings using Guid(40dd8cc9b6443a34fb7dd3c39d08074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9cd8cc5da49ada3b6baf032070d606b') in 0.0007799 seconds
+  Time since last request: 1.971966 seconds.
+  path: Assets/3rdPartyAssets/Characters/Stylized NPC - Peasant Nolant
+  artifactKey: Guid(9f963a6e4b9fb134b9b6aa872ad41e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Stylized NPC - Peasant Nolant using Guid(9f963a6e4b9fb134b9b6aa872ad41e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86929424db2321e61038085ff9c36604') in 0.0012433 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.885850 seconds.
-  path: Assets/3rdPartyAssets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed
-  artifactKey: Guid(361af5be93a94d047835c7a3fc2e0f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rdPartyAssets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed using Guid(361af5be93a94d047835c7a3fc2e0f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '694b990ebfbab42a7ab9697b149c15bd') in 0.0009632 seconds
+  Time since last request: 1.451821 seconds.
+  path: Assets/3rdPartyAssets/Characters/Stylized NPC - Peasant Nolant/Prefabs
+  artifactKey: Guid(c1e92b359d55e9e409a9930f4385bc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Stylized NPC - Peasant Nolant/Prefabs using Guid(c1e92b359d55e9e409a9930f4385bc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29c155dc0f5a1c07e97b432daec8405f') in 0.0015545 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/3rdPartyAssets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_01.prefab
-  artifactKey: Guid(cd87e5026d1695148aabe96121c526ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rdPartyAssets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_01.prefab using Guid(cd87e5026d1695148aabe96121c526ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '242da01ac78fa7ef7ac4b9ae7234a508') in 0.0782758 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000042 seconds.
+  path: Assets/3rdPartyAssets/Characters/Stylized NPC - Peasant Nolant/Prefabs/Peasant Nolant Blue(Free Version).prefab
+  artifactKey: Guid(64db8d48fab1ceb43a8ee5d52643029a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Stylized NPC - Peasant Nolant/Prefabs/Peasant Nolant Blue(Free Version).prefab using Guid(64db8d48fab1ceb43a8ee5d52643029a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a17526cebaa0f84a66b8464aa9503668') in 0.1536937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/3rdPartyAssets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_04.prefab
-  artifactKey: Guid(71442e8cd72511e4fabb72f1a2cc82dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rdPartyAssets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_04.prefab using Guid(71442e8cd72511e4fabb72f1a2cc82dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b97713930a2f7542f6b09669a4948e4') in 0.0478851 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000049 seconds.
+  path: Assets/3rdPartyAssets/Characters/Stylized NPC - Peasant Nolant/Prefabs/Peasant Nolant Yellow(Free Version).prefab
+  artifactKey: Guid(4f9803ed31b25c049b47eaf15bcb0c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Stylized NPC - Peasant Nolant/Prefabs/Peasant Nolant Yellow(Free Version).prefab using Guid(4f9803ed31b25c049b47eaf15bcb0c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5cf067931012165c354499fcff03e54') in 0.0559419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 374.375783 seconds.
+  path: Assets/3rdPartyAssets/Characters/Stylized NPC - Peasant Nolant/Prefabs/Peasant Nolant Blue(Free Version).prefab
+  artifactKey: Guid(64db8d48fab1ceb43a8ee5d52643029a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Stylized NPC - Peasant Nolant/Prefabs/Peasant Nolant Blue(Free Version).prefab using Guid(64db8d48fab1ceb43a8ee5d52643029a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa86da70635f32e4d256f12b4f741ca5') in 0.2872307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/3rdPartyAssets/Characters/Stylized NPC - Peasant Nolant/Prefabs/Peasant Nolant Yellow(Free Version).prefab
+  artifactKey: Guid(4f9803ed31b25c049b47eaf15bcb0c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Stylized NPC - Peasant Nolant/Prefabs/Peasant Nolant Yellow(Free Version).prefab using Guid(4f9803ed31b25c049b47eaf15bcb0c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a64d4b42777d400685066bb19dd654e') in 0.1062338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.683385 seconds.
+  path: Assets/3rdPartyAssets/Characters/STYLIZED CHARACTERS/PREFABS
+  artifactKey: Guid(56989dd07514c4fe9ab24b3f1c76c40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/STYLIZED CHARACTERS/PREFABS using Guid(56989dd07514c4fe9ab24b3f1c76c40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '423ebbfb44e682015525c3534a21d955') in 0.0014563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/3rdPartyAssets/Characters/STYLIZED CHARACTERS/PREFABS/character 1.prefab
+  artifactKey: Guid(19032a5f78bcd4a7f99a3546f64fc2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/STYLIZED CHARACTERS/PREFABS/character 1.prefab using Guid(19032a5f78bcd4a7f99a3546f64fc2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f86ca698e52baf4dd4cb1d8fe5c9f344') in 0.104556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 376
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Leak Detected : Persistent allocates 8 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
+- Loaded All Assemblies, in  2.161 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.191 seconds
+Domain Reload Profiling: 4353ms
+	BeginReloadAssembly (597ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (80ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (196ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (1387ms)
+		LoadAssemblies (1065ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (512ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (472ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (2192ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1752ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (197ms)
+			ProcessInitializeOnLoadAttributes (1369ms)
+			ProcessInitializeOnLoadMethodAttributes (168ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7273 unused Assets / (5.8 MB). Loaded Objects now: 8405.
+Memory consumption went from 238.3 MB to 232.6 MB.
+Total: 64.839300 ms (FindLiveObjects: 2.125700 ms CreateObjectMapping: 1.581800 ms MarkObjects: 51.173900 ms  DeleteObjects: 9.952500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 286.904411 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/AnimatorControllers
+  artifactKey: Guid(fadac511d02fbbc41875c032a750394d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/AnimatorControllers using Guid(fadac511d02fbbc41875c032a750394d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05d63c075b21109b0f9c425278f9ac95') in 0.0471884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.078852 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/AnimatorControllers/FreeAnimations.controller
+  artifactKey: Guid(8b9a677f24793ba45bdc27a1dab7745e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/AnimatorControllers/FreeAnimations.controller using Guid(8b9a677f24793ba45bdc27a1dab7745e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c28c5217af0e55a8484ca147c6ed4720') in 0.0749909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.100146 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Animations
+  artifactKey: Guid(4c5d889290f821e4f9d3a1cdfddf771b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Animations using Guid(4c5d889290f821e4f9d3a1cdfddf771b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '564b7a5e51b26f9ce9f3de1127960adc') in 0.001331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Animations/common_people@backwards-run.FBX
+  artifactKey: Guid(478fe807cc09b09448250cacc1ab8eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Animations/common_people@backwards-run.FBX using Guid(478fe807cc09b09448250cacc1ab8eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c00b807ea12a5d87e9adfb3b4af1881e') in 0.0366351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Animations/common_people@idle.FBX
+  artifactKey: Guid(10cbb0afa2a98564a983cdaf3c1b7551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Animations/common_people@idle.FBX using Guid(10cbb0afa2a98564a983cdaf3c1b7551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cf3aa87fd15ea5fd72aa8d7a0e15c05') in 0.006347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Animations/common_people@victory.FBX
+  artifactKey: Guid(d20a71ec97485e04c860a3e65243dc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Animations/common_people@victory.FBX using Guid(d20a71ec97485e04c860a3e65243dc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd634f2cadf0b94e56d9733a84e298c10') in 0.0064777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Animations/common_people@run.FBX
+  artifactKey: Guid(587fb8efeff01634aa9ce8a5af77911a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Animations/common_people@run.FBX using Guid(587fb8efeff01634aa9ce8a5af77911a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32fd459f7a0ed4e900e62aa6349cb1cb') in 0.006665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Animations/common_people@jump-float.FBX
+  artifactKey: Guid(a61a057436c775f449fcb20e89101739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Animations/common_people@jump-float.FBX using Guid(a61a057436c775f449fcb20e89101739) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '791d52d808d59d2cf433c6e18fbe3c7f') in 0.007278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Animations/common_people@jump-down.FBX
+  artifactKey: Guid(e128858833d96dd46adee36a45c805cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdPartyAssets/Characters/Supercyan Character Pack Free Sample/Animations/common_people@jump-down.FBX using Guid(e128858833d96dd46adee36a45c805cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac805738001a867a302bf1cac2268653') in 0.0079721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
