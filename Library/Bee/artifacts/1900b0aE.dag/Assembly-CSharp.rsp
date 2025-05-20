@@ -470,6 +470,7 @@
 "Assets/MyAssets/Scripts/Interactor.cs"
 "Assets/MyAssets/Scripts/IRayProvider.cs"
 "Assets/MyAssets/Scripts/MouseScreenRayProvider.cs"
+"Assets/MyAssets/Scripts/TaskTracker.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic
