@@ -74,9 +74,9 @@
     <Compile Include="Assets\3rdPartyAssets\Characters\Supercyan Character Pack Free Sample\Scripts\AccessoryLogic.cs" />
     <Compile Include="Assets\3rdPartyAssets\Characters\Supercyan Character Pack Free Sample\Scripts\DemoFree.cs" />
     <Compile Include="Assets\3rdPartyAssets\Characters\Supercyan Character Pack Free Sample\Scripts\SimpleSampleCharacterControl.cs" />
+    <Compile Include="Assets\MyAssets\Scripts\NextScene.cs" />
     <Compile Include="Assets\3rdPartyAssets\Simple Water Shader HDRP\Scripts\DemoButtons.cs" />
     <Compile Include="Assets\3rdPartyAssets\HeneGames\Dialogue System\Scripts\DialogueUI.cs" />
-    <Compile Include="Assets\MyAssets\Scripts\Interactor.cs" />
     <Compile Include="Assets\3rdPartyAssets\HeneGames\Dialogue System\Scripts\DialogueTrigger.cs" />
     <Compile Include="Assets\3rdPartyAssets\Characters\Supercyan Character Pack Free Sample\Scripts\AccessoryWearLogic.cs" />
     <Compile Include="Assets\3rdPartyAssets\HeneGames\Dialogue System\Scripts\DialogueManager.cs" />
