@@ -124,7 +124,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
--define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
 -define:ODIN_INSPECTOR
@@ -141,7 +141,6 @@
 -define:CINEMACHINE_PHYSICS_2D
 -define:CINEMACHINE_PHYSICS
 -define:CINEMACHINE_UGUI
--define:CINEMACHINE_UNITY_INPUTSYSTEM
 -define:CINEMACHINE_UNITY_ANIMATION
 -define:CINEMACHINE_UIELEMENTS
 -define:CINEMACHINE_SPLINES_2_4
@@ -408,7 +407,6 @@
 -r:"Library/PackageCache/com.unity.visualscripting@7dcdc439b230/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@7dcdc439b230/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@7dcdc439b230/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.RenderPipelines.Core.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.RenderPipelines.HighDefinition.Runtime.ref.dll"
